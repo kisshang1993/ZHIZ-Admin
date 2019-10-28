@@ -1,0 +1,60 @@
+.button-header{
+  position: relative;
+  height: 36px;
+  margin-bottom: 20px;
+}
+.button-header > .buttom-group{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+b.quality-uncommon,
+span.quality-uncommon {
+    color: #26a65b !important;
+}
+.mb5 {
+    display: block;
+    margin-bottom: 5px;
+}
+.quality-uncommon .avatar {
+    /* border-color: #1eff00 !important; */
+    border-color: #26a65b !important;
+}
+
+b.quality-rare,
+span.quality-rare {
+    color: #0081ff !important;
+}
+
+.quality-rare .avatar {
+    border-color: #0081ff !important;
+}
+
+b.quality-epic,
+span.quality-epic {
+    color: #c600ff !important;
+}
+.quality-epic .avatar {
+    border-color: #c600ff !important;
+}
+
+b.quality-legendary,
+span.quality-legendary {
+    color: #ff8000 !important;
+}
+
+.quality-legendary .avatar {
+    border-color: #ff8000 !important;
+}
+
+.user-detail-link {
+    cursor: pointer;
+}
+
+.user-detail-link:hover {
+    color: #0081ff;
+    text-decoration: underline;
+}
+.ivu-divider-inner-text {
+    font-size: 14px;
+}
